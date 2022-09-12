@@ -1,0 +1,64 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+
+.box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.nav-item-two{
+    list-style: none;
+}
+.nav-list-two{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-item-two:last-child{
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.nav-item-three{
+    list-style: none;
+    margin-left: 2rem;
+}
+.nav-list-three{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-item-three:last-child{
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.login_blok{ /* div voor hele pagina */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*border: 1px solid blue;*/
+}
+.form_css{ /* alleen voor form*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+label,input[type=text],input[type=password] {
+    display: block;/* text box gaat op volgende lijn*/
+}
+.five{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+article{
+    flex-basis: 350px;
+    flex-grow: 1;
+}
+/*@media only screen and (max-width: 500px) {
+    .row{
+        flex-direction:column;
+    }
+}*/

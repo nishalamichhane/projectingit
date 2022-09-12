@@ -1,0 +1,38 @@
+h1,h3{
+    text-align: center;
+}
+.op2_articlecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color:#C16E70;
+    text-align: center;
+    border-radius: 4px;
+    flex-basis: 280px;
+    margin: 5px;
+    height: 350px;
+    padding: 20px;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+.op2_boxcontainer{
+    display: flex;
+    justify-content: center;
+    background-color: #F2F3D9;
+}
+.nav_list{
+    background-color: #030027;
+    color: #ffffff;
+    padding:1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav_item{
+    list-style: none;
+    margin-right: 2rem;
+}
+.nav_item:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+}
